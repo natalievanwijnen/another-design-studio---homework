@@ -76,6 +76,14 @@ main {
   margin-top: 40px;
 }
 
+.gallery-info {
+  background: var(--pale-lime);
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
 #work .gallery {
   margin: 0;
   padding: 0;
