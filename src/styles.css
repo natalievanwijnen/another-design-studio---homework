@@ -1,0 +1,77 @@
+:root {
+  --graphite: #1d1c1a;
+  --sandstone: #e4dcc6;
+  --ivory: #f2f0eb;
+  --pale-lime: #e3ecae;
+  --terra-cotta: #dc4829;
+  --magnolia: #ecb3cd;
+  --indigo: #1f305f;
+  --cerulean: #b8dac7;
+  --olive: #5e612a;
+  --body-font: "Work Sans", sans-serif;
+  --logo-font: "ivyjournal", sans-serif;
+}
+
+.container-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--ivory);
+}
+
+.navbar-brand.home-link {
+  color: var(--terra-cotta);
+  font-family: var(--logo-font);
+  font-size: 24px;
+  font-weight: 300;
+  padding: 0 0 20px 40px;
+}
+
+.nav-links {
+  align-items: center;
+  display: flex;
+  color: var(--graphite);
+  font-family: var(--body-font);
+  font-size: 18px;
+  gap: 30px;
+  margin-left: auto;
+  padding: 0 40px 20px 0;
+}
+
+nav button {
+  margin-right: 20px;
+}
+
+main {
+  padding: 40px;
+}
+
+h1 {
+  color: var(--terra-cotta);
+  font-family: var(--logo-font);
+  font-weight: 300;
+}
+
+h2 {
+  color: var(--terra-cotta);
+  font-family: var(--body-font);
+  font-size: 24px;
+  font-weight: 300;
+}
+
+#work .row .col-4,
+#work .row .col-12,
+#work .row .col-6 {
+  background-color: var(--pale-lime);
+  border-radius: 10px;
+  font-family: var(--body-font);
+  height: 500px;
+  padding: 20px;
+}
+
+footer {
+  background-color: var(--graphite);
+  color: var(--ivory);
+  font-family: var(--body-font);
+  padding: 40px;
+}
