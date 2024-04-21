@@ -65,6 +65,18 @@ main {
   font-size: 62px;
 }
 
+.work-section h2 {
+  color: var(--graphite);
+  font-family: var(--body-font);
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.work-section p {
+}
+
 .section-title {
   color: var(--graphite);
   font-family: var(--body-font);
@@ -163,7 +175,7 @@ footer a:hover {
   color: var(--graphite);
   font-family: var(--body-font);
   font-size: 18px;
-  line-height: 1.6;
+  line-height: 1.5;
   margin-bottom: 30px;
 }
 
